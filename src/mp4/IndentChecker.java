@@ -67,7 +67,7 @@ public class IndentChecker {
               
            }
            if (indentStack.peek()==0)
-                   System.out.printf("*********" + fileName + " must be properly indented."+ "%n%n");
+                   System.out.printf("*********" + fileName + " is properly indented."+ "%n%n");
               
        }
        catch (BadIndentationException error)
